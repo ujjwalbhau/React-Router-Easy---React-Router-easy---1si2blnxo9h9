@@ -8,10 +8,12 @@ const App = () => {
   return (
     <BrowserRouter>
       <div id="main">
+       
         <NavBar />
         <AppRoutes />
       </div>
     </BrowserRouter>
+    
 
   )
 }
